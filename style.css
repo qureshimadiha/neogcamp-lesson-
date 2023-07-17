@@ -1,15 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+
 body {
-  color: blue;
-}
-h1 {
-  color: orange;
-}
-h2 {
-  color: red;
-}
-#lib-header {
-  color: grey;
-}
-.para {
-  color: pink;
+  font-family: "Lumanosimo", cursive;
 }
