@@ -67,3 +67,22 @@ hr {
 .navigation .link-active {
   font-weight: bold;
 }
+/** header**/
+
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: black;
+  text-align: center;
+  padding: 1 rem;
+}
+.hero .hero-heading .heading-inverted {
+  color: red;
+}
