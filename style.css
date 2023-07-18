@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: red;
+  --off-white: #991b1b;
 }
 body {
   font-family: "Lumanosimo", cursive;
@@ -85,4 +86,19 @@ hr {
 }
 .hero .hero-heading .heading-inverted {
   color: red;
+}
+/** section**/
+
+.section h3,
+p {
+  text-align: center;
+}
+.section-1 {
+  text-align: center;
+}
+.section-1 {
+  padding: 2rem;
+}
+.section-1 {
+  background-color: #991b1b;
 }
