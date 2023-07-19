@@ -94,13 +94,14 @@ hr {
 .section h3 {
   text-align: center;
 }
-.section-1 {
+.section {
   text-align: center;
-}
-.section-1 {
   padding: 2rem;
 }
-.section-1 {
+
+.section-b {
+  text-align: center;
+  padding: 2rem;
   background-color: red;
 }
 /** footers **/
