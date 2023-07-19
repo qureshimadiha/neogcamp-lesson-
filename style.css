@@ -26,18 +26,19 @@ hr {
   padding: 0.5rem 1 rem;
 }
 .link-primary {
-  background-color: var (--primary-color);
+  background-color: red;
   border-radius: 0.5rem;
-  border: 2px dotted var(--primary-color);
+  border: 1px dotted;
   color: black;
 }
 
 .link-secondary {
-  background-color: var(--primary-color);
+  background-color: blue;
   border-radius: 0.5rem;
-  border: 2px solid var(--primary-color);
+  border: 1px solid;
 }
-/** look into BEM naming convention for CSS **/
+
+** look into BEM naming convention for CSS **/
 
 /**lists**/
 
@@ -47,6 +48,26 @@ hr {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+
+/** header**/
+
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: black;
+  text-align: center;
+  padding: 1 rem;
+}
+.hero .hero-heading .heading-inverted {
+  color: red;
 }
 /** navigation **/
 
@@ -67,25 +88,6 @@ hr {
 }
 .navigation .link-active {
   font-weight: bold;
-}
-/** header**/
-
-.hero {
-  padding: 2rem;
-}
-.hero .hero-img {
-  max-width: 350px;
-  display: block;
-  margin: auto;
-}
-
-.hero .hero-heading {
-  color: black;
-  text-align: center;
-  padding: 1 rem;
-}
-.hero .hero-heading .heading-inverted {
-  color: red;
 }
 /** section**/
 
