@@ -43,7 +43,7 @@ hr {
 /**lists**/
 
 .list-non-bullet {
-  list-style: none;
+  list-style-type: none;
 }
 .list-item-inline {
   display: inline;
@@ -91,8 +91,7 @@ hr {
 }
 /** section**/
 
-.section h3,
-p {
+.section h3 {
   text-align: center;
 }
 .section-1 {
@@ -102,7 +101,7 @@ p {
   padding: 2rem;
 }
 .section-1 {
-  background-color: #991b1b;
+  background-color: red;
 }
 /** footers **/
 
